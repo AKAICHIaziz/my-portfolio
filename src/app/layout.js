@@ -1,6 +1,6 @@
 import "./globals.css";
 import Navbar from "../components/Navbar"
-
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata = {
   title: "Akaichi Aziz | Software Developer",
@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
       <body className="w-full h-full bg-background text-foreground flex flex-col">
         <Navbar />
         {children}
+        <Analytics />
       </body>
     </html >
   );
