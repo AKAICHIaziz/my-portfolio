@@ -69,7 +69,7 @@ export default function Home() {
             <div className="p-5 w-full flex flex-col justify-between gap-3">
               <h2 className="font-semibold text-sm sm:text-base">Heart disease anomaly detection</h2>
               <p className="text-muted-foreground text-justify text-sm sm:text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum accusamus, nemo sit temporibus iste fugiat! Quia libero nulla sit veritatis assumenda impedit nobis quod possimus, mollitia iure molestias, animi aut.</p>
-              <a href="" className="flex justify-end">
+              <a href="#" className="flex justify-end">
                 <button className="bg-primary/10 text-primary text-sm font-medium w-full rounded-md h-9  flex items-center justify-center sm:w-32">
                   Read more
                 </button>
@@ -77,12 +77,12 @@ export default function Home() {
             </div>
           </div>
 
-          <div className=" w-full sm:w-[90%] p-2 flex flex-col lg:gap-10 gap-0 lg:flex-row items-center bg-card rounded-xl">
+          <div className="w-full sm:w-[90%] p-2 flex flex-col lg:gap-10 gap-0 lg:flex-row items-center bg-card rounded-xl">
             <Image src={project_image} alt="Profile image" className="w-72 " />
             <div className="p-5 w-full flex flex-col justify-between gap-3">
               <h2 className="font-semibold text-sm sm:text-base">TT Intern OP</h2>
               <p className="text-muted-foreground text-justify text-sm sm:text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum accusamus, nemo sit temporibus iste fugiat! Quia libero nulla sit veritatis assumenda impedit nobis quod possimus, mollitia iure molestias, animi aut.</p>
-              <a href="" className="flex justify-end">
+              <a href="#" className="flex justify-end">
                 <button className="bg-primary/10 text-primary text-sm font-medium w-full rounded-md h-9  flex items-center justify-center sm:w-32">
                   Read more
                 </button>
