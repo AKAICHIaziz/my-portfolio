@@ -4,11 +4,11 @@ export default function ContactForm() {
         <div className="w-[90%] sm:w-[40%] h-fit rounded-lg bg-card/10 mb-14 sm:mb-28 ">
             <form action="" method="POST" className="flex flex-col items-end gap-2 p-2">
 
-                <input type="text" id="email" name="email" placeholder="Full name" className="w-full p-2 pl-5 border rounded-md bg-transparent focus:outline-none" />
+                <input type="text" id="username" name="username" placeholder="Full name" className="w-full p-2 pl-5 border rounded-md bg-transparent focus:outline-none" />
 
                 <input type="email" id="email" name="email" placeholder="Email" className="w-full p-2 pl-5 border rounded-md bg-transparent focus:outline-none" />
 
-                <input type="text" id="email" name="email" placeholder="Organization" className="w-full p-2 pl-5 border rounded-md bg-transparent focus:outline-none" />
+                <input type="text" id="organization" name="organization" placeholder="Organization" className="w-full p-2 pl-5 border rounded-md bg-transparent focus:outline-none" />
 
                 <textarea
                     id="message"
