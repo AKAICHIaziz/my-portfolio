@@ -1,6 +1,6 @@
 import { Sparkles } from "@/components/Sparkles"
 
-import project_image from "../../../public/project_image.png"
+import project_image from "../../../public/logo.png"
 import Image from "next/image"
 
 
@@ -18,7 +18,7 @@ export default function Skills() {
 
                 <div className="mt-14 grid grid-cols-5">
 
-                    {/* <Image src={project_image} alt="img" /> */}
+                    <Image src={project_image} alt="img" />
 
                 </div>
             </div>
