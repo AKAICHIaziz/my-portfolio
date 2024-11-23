@@ -27,8 +27,8 @@ export default function Home() {
 
           </div>
           <p className="text-foreground/70 text-justify text-sm sm:text-base">
-            A passionate software developer and a final-year computer science student, set to graduate this summer with a bachelor's degree.
-            My journey started with a love for technology and a curiosity about how things work. Today, I’m dedicated to creating solutions that make life easier and more connected.
+            A passionate software developer and a final-year computer science student, set to graduate this summer with a bachelor&apos;s degree.
+            My journey started with a love for technology and a curiosity about how things work. Today, I&apos;m dedicated to creating solutions that make life easier and more connected.
             My approach combines creativity, precision, and a constant drive for growth, enabling me to contribute meaningfully to projects that inspire and push boundaries. I value collaboration, adaptability, and the opportunity to make a positive impact through my work.
           </p>
         </div>
