@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const NavBar = () => {
     return (
-        <nav className="fixed pr-[7%] pl-8 bg-muted/20 border-b backdrop-blur-3xl w-full h-14 flex flex-row items-center justify-between sm:pr-[17%] ">
+        <nav className="fixed z-20 pr-[7%] pl-8 bg-muted/20 border-b backdrop-blur-3xl w-full h-14 flex flex-row items-center justify-between sm:pr-[17%] ">
 
             <div>Logo</div>
 
