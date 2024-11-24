@@ -5,7 +5,7 @@ import SocialLinks from "./SocialLinks";
 
 export default function Contact() {
     return (
-        <div className="w-full h-fit flex flex-col items-center justify-center relative">
+        <div className="w-full h-fit flex flex-col items-center justify-center relative mt-16">
 
             <div className="w-full h-full flex flex-col items-center justify-center gap-1 relative">
                 <div className="absolute inset-0 -z-10 h-40 w-full overflow-hidden [mask-image:radial-gradient(50%_50%,white,transparent)] before:absolute before:inset-0 before:bg-[radial-gradient(circle_at_bottom_center,blue,transparent_60%)] before:opacity-20 ">

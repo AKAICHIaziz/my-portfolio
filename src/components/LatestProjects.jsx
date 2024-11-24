@@ -3,7 +3,7 @@ import project_image from "../../public/project_image.png"
 
 export default function LatestProjects() {
     return (
-        <div className="w-10/12 flex flex-col gap-10 items-center sm:w-8/12">
+        <div className="w-10/12 flex flex-col gap-5 items-center sm:w-8/12 -mt-28 sm:mt-0">
 
             <div className="flex flex-row items-center justify-between w-full">
                 <h1 className="font-bold text-xl text-foreground">Latest projects</h1>
@@ -17,7 +17,7 @@ export default function LatestProjects() {
 
             </div>
 
-            <div className=" w-full flex flex-col items-center gap-8">
+            <div className=" w-full flex flex-col items-center gap-2 sm:gap-8">
 
                 <div className=" w-full sm:w-[90%] p-2 flex flex-col lg:gap-10 gap-0 lg:flex-row items-center bg-card rounded-xl">
                     <Image src={project_image} alt="Profile image" className="w-72 " />

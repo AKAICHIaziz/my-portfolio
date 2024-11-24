@@ -16,7 +16,7 @@ import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center gap-12 pt-24 bg-transparent">
+    <div className="flex flex-col items-center pt-24 bg-transparent">
 
       <Profile />
 
