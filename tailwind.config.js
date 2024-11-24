@@ -9,6 +9,9 @@ module.exports = {
 	darkMode: ["class", "class"], // Enables class-based dark mode
 	theme: {
 		extend: {
+			backgroundImage: {
+                'skills-bg': "url('/bg.jpg')",
+            },
 			colors: {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',

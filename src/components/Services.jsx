@@ -18,7 +18,7 @@ export default function Profile() {
 
             <div className="flex flex-col items-center gap-7">
 
-                <h1 className="w-full font-bold text-base sm:text-xl text-foreground text-center">Empowering innovation through intelligent solutions and seamless development.</h1>
+                <h1 className="w-[90%] font-bold text-base sm:text-xl text-foreground text-center">Empowering innovation through intelligent solutions and seamless development.</h1>
 
                 <div className="w-full flex flex-row items-center justify-center gap-10">
 
