@@ -16,7 +16,7 @@ import ps from "../../public/ps.svg"
 import Image from "next/image"
 
 // Array of imported logos
-const logos = [react, next, node, express, mongo, postgresql, angular, springboot, python, flask, xd, ps];
+const logos = [react, next, node, express, mongo, postgresql, angular, springboot, python, flask, xd, ps]
 
 export default function Marquee() {
     return (

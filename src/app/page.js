@@ -1,12 +1,4 @@
 
-
-
-
-import Marquee from "@/components/Marquee"
-
-import ContactForm from "@/components/ContactForm";
-import SocialLinks from "@/components/SocialLinks";
-
 import Profile from "@/components/Profile";
 import Services from "@/components/Services";
 import LatestProjects from "@/components/LatestProjects";
@@ -27,7 +19,6 @@ export default function Home() {
       <Skills />
 
       <Contact />
-
 
     </div>
 

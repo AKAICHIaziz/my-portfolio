@@ -1,11 +1,12 @@
 import Image from "next/image";
 import project_image from "../../public/project_image.png"
+import Link from "next/link";
 
 export default function LatestProjects() {
     return (
         <div className="w-10/12 flex flex-col gap-5 items-center sm:w-8/12 -mt-28 sm:mt-0">
 
-            <div className="flex flex-row items-center justify-between w-full">
+            <Link className="flex flex-row items-center justify-between w-full" href="/projects">
                 <h1 className="font-bold text-lg sm:text-xl text-foreground">Latest projects</h1>
 
                 <div className="flex flex-row items-center gap-2 cursor-pointer text-xs text-foreground/60 transition-all hover:gap-4">
@@ -15,7 +16,7 @@ export default function LatestProjects() {
                     </svg>
                 </div>
 
-            </div>
+            </Link>
 
             <div className=" w-full flex flex-col items-center gap-2 sm:gap-8">
 
