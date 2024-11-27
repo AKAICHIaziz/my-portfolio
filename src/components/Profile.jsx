@@ -5,7 +5,7 @@ export default function Profile() {
     return (
         <div className="w-full flex flex-row items-center justify-around sm:w-8/12 pl-7 pr-7 mb-4 sm:mb-8">
 
-            <div className="flex flex-col w-full sm:w-[55%] gap-2">
+            <div className="flex flex-col w-full sm:w-[60%] gap-2">
                 <h1 className="font-thin text-sm sm:text-lg text-foreground/70">Software Developer</h1>
                 <h1 className="text-[#563A9C] text-xl sm:text-5xl font-semibold">
                     Akaichi Mohamed Aziz
