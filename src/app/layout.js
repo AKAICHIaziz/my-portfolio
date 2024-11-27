@@ -1,7 +1,6 @@
 import "./globals.css";
 import Navbar from "../components/Navbar"
 import { Analytics } from "@vercel/analytics/react"
-
 import { Poppins } from 'next/font/google';
 
 const poppins = Poppins({

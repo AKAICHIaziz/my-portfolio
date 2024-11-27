@@ -1,10 +1,10 @@
 import Image from "next/image";
-import project_image from "../../public/project_image.png"
+import project_image from "../../public/projet_tt.png"
 import Link from "next/link";
 
 export default function LatestProjects() {
     return (
-        <div className="w-10/12 flex flex-col gap-5 items-center sm:w-8/12 -mt-28 sm:mt-0">
+        <div className="w-10/12 flex flex-col gap-5 items-center sm:w-10/12 -mt-36 sm:mt-0">
 
             <Link className="flex flex-row items-center justify-between w-full" href="/projects">
                 <h1 className="font-bold text-lg sm:text-xl text-foreground">Latest projects</h1>
@@ -18,28 +18,38 @@ export default function LatestProjects() {
 
             </Link>
 
-            <div className=" w-full flex flex-col items-center gap-2 sm:gap-8">
+            <div className=" w-full flex flex-col sm:flex-row items-center gap-2 sm:gap-8">
 
-                <div className=" w-full sm:w-[90%] p-2 flex flex-col lg:gap-10 gap-0 lg:flex-row items-center bg-accent/5 rounded-xl">
-                    <Image src={project_image} alt="Profile image" className="w-72 " />
-                    <div className="p-5 w-full flex flex-col justify-between gap-3">
+                <div className=" w-full sm:w-fit p-3 flex flex-col sm:gap-10 gap-3 lg:flex-row items-center sm:items-start bg-accent/20 rounded-xl">
+                    <Image src={project_image} alt="Profile image" className="w-72 border" />
+                    <div className="w-full flex flex-col gap-2 justify-between">
                         <h2 className="font-semibold text-sm sm:text-base">Heart disease anomaly detection</h2>
-                        <p className="text-muted-foreground text-justify text-xs sm:text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum accusamus, nemo sit temporibus iste fugiat! Quia libero nulla sit veritatis assumenda impedit nobis quod possimus, mollitia iure molestias, animi aut.</p>
+                        <div className="text-foreground font-light text-center text-xs sm:text-sm grid grid-cols-3 gap-2 justify-center w-fit">
+                            <p className="bg-accent p-1 px-3 rounded-lg w-fit">React</p>
+                            <p className="bg-accent p-1 px-3 rounded-lg w-fit">Node</p>
+                            <p className="bg-accent p-1 px-3 rounded-lg w-fit">Express</p>
+                            <p className="bg-accent p-1 px-3 rounded-lg w-fit">MongoDB</p>
+                        </div>
                         <a href="#" className="flex justify-end">
-                            <button className="bg-primary/10 text-primary text-xs sm:text-sm font-medium w-full rounded-md h-7 sm:h-9 flex items-center justify-center sm:w-32">
+                            <button className="bg-primary/10 text-primary text-xs sm:text-sm w-full rounded-md h-8 flex items-center justify-center sm:w-32">
                                 Read more
                             </button>
                         </a>
                     </div>
                 </div>
 
-                <div className="w-full sm:w-[90%] p-2 flex flex-col lg:gap-10 gap-0 lg:flex-row items-center bg-accent/5 rounded-xl">
-                    <Image src={project_image} alt="Profile image" className="w-72 " />
-                    <div className="p-5 w-full flex flex-col justify-between gap-3">
-                        <h2 className="font-semibold text-sm sm:text-base">TT Intern OP</h2>
-                        <p className="text-muted-foreground text-justify text-xs sm:text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum accusamus, nemo sit temporibus iste fugiat! Quia libero nulla sit veritatis assumenda impedit nobis quod possimus, mollitia iure molestias, animi aut.</p>
+                <div className=" w-full sm:w-fit p-3 flex flex-col sm:gap-10 gap-3 lg:flex-row items-center sm:items-start bg-accent/20 rounded-xl">
+                    <Image src={project_image} alt="Profile image" className="w-72 border" />
+                    <div className="w-full flex flex-col gap-2 justify-between">
+                        <h2 className="font-semibold text-sm sm:text-base">Heart disease anomaly detection</h2>
+                        <div className="text-foreground font-light text-center text-xs sm:text-sm grid grid-cols-3 gap-2 justify-center w-fit">
+                            <p className="bg-accent p-1 px-3 rounded-lg w-fit">React</p>
+                            <p className="bg-accent p-1 px-3 rounded-lg w-fit">Node</p>
+                            <p className="bg-accent p-1 px-3 rounded-lg w-fit">Express</p>
+                            <p className="bg-accent p-1 px-3 rounded-lg w-fit">MongoDB</p>
+                        </div>
                         <a href="#" className="flex justify-end">
-                            <button className="bg-primary/10 text-primary text-xs sm:text-sm font-medium w-full rounded-md h-7 sm:h-9 flex items-center justify-center sm:w-32">
+                            <button className="bg-primary/10 text-primary text-xs sm:text-sm w-full rounded-md h-8 flex items-center justify-center sm:w-32">
                                 Read more
                             </button>
                         </a>

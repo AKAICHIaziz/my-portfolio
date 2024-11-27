@@ -1,8 +1,6 @@
 import ContactForm from "./ContactForm";
 import SocialLinks from "./SocialLinks";
 
-
-
 export default function Contact() {
     return (
         <div className="w-full h-fit flex flex-col items-center justify-center relative mt-16">
