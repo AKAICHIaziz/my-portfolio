@@ -22,14 +22,14 @@ export default function Profile() {
 
                 <div className="w-full flex flex-row items-center justify-center gap-10">
 
-                    <div className="w-[40%] sm:w-[30%] h-28 sm:h-60 bg-accent/30 flex flex-col items-center justify-top gap-1 p-4 rounded-md">
+                    <div className="w-[40%] cursor-pointer transition-all duration-100 hover:bg-accent/50 sm:w-[30%] h-28 sm:h-60 bg-accent/30 flex flex-col items-center justify-top gap-1 p-4 rounded-md">
                         <Image src={dev} alt="dev" className="w-8 h-8 sm:w-16 sm:h-16 mb-3" />
                         <h2 className="text-center font-light">Software Development</h2>
                         <p className="hidden sm:block text-foreground/70 text-center font-light text-sm sm:text-base">Crafting reliable and scalable applications tailored to meet unique business needs.</p>
                     </div>
-                    
 
-                    <div className="w-[40%] sm:w-[30%] h-28 sm:h-60 bg-accent/30 flex flex-col items-center justify-top gap-1 p-4 rounded-md">
+
+                    <div className="w-[40%] cursor-pointer transition-all duration-100 hover:bg-accent/50 sm:w-[30%] h-28 sm:h-60 bg-accent/30 flex flex-col items-center justify-top gap-1 p-4 rounded-md">
                         <Image src={ml} alt="ml" className="w-8 h-8 sm:w-16 sm:h-16 mb-3" />
                         <h2 className="hidden sm:block text-center">Machine Learning Solutions</h2>
                         <h2 className="block sm:hidden font-light text-center">ML Solutions</h2>

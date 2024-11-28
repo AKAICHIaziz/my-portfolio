@@ -1,5 +1,6 @@
 import Image from "next/image";
-import project_image from "../../public/projet_tt.png"
+import projet_tt from "../../public/projet_tt.png"
+import projetML from "../../public/projetML.png"
 import Link from "next/link";
 
 export default function LatestProjects() {
@@ -21,7 +22,7 @@ export default function LatestProjects() {
             <div className=" w-full flex flex-col sm:flex-row items-center gap-2 sm:gap-8">
 
                 <div className=" w-full sm:w-[45vw] p-3 flex flex-col sm:gap-5 gap-3 lg:flex-row items-center sm:items-start bg-accent/20 rounded-lg">
-                    <Image src={project_image} alt="Profile image" className="w-72 rounded" />
+                    <Image src={projetML} alt="Profile image" className="w-72 rounded" />
                     <div className="w-full flex flex-col gap-2 justify-between">
                         <h2 className="font-semibold text-sm sm:text-base">Heart disease anomaly detection</h2>
                         <div className="text-foreground font-light text-center text-xs sm:text-sm justify-center w-fit wrapper flex flex-wrap gap-1">
@@ -45,7 +46,7 @@ export default function LatestProjects() {
                 </div>
 
                 <div className=" w-full sm:w-[45vw] p-3 flex flex-col sm:gap-5 gap-3 lg:flex-row items-center sm:items-start bg-accent/20 rounded-lg">
-                    <Image src={project_image} alt="Profile image" className="w-72 rounded" />
+                    <Image src={projet_tt} alt="Profile image" className="w-72 rounded" />
                     <div className="w-full flex flex-col gap-2 justify-between">
                         <h2 className="font-semibold text-sm sm:text-base">TT Intern OP Manager</h2>
                         <div className="text-foreground font-light text-center text-xs sm:text-sm justify-center w-fit wrapper flex flex-wrap gap-1">

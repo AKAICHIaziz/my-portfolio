@@ -5,7 +5,7 @@ export default function Skills() {
     return (
         <div className="w-10/12 flex flex-col gap-1  mt-8 sm:mt-16">
 
-            <div className="flex flex-row items-center justify-between w-full border-b-0 sm:border-b">
+            <div className="flex flex-row items-center justify-between w-full">
 
                 <h1 className="font-bold text-lg sm:text-xl text-foreground">Technical Expertise</h1>
 
