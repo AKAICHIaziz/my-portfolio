@@ -1,5 +1,7 @@
 import Image from "next/image";
 import my_image from "../../public/img.png"
+import ButtonA from "./ui/ButtonA";
+import Link from "next/link";
 
 export default function Profile() {
     return (
@@ -10,8 +12,12 @@ export default function Profile() {
                 <h1 className="text-[#6522a4] text-xl sm:text-5xl font-semibold">
                     Akaichi Mohamed Aziz
                 </h1>
-                <p className="text-foreground text-justify text-sm sm:text-sm font-thin ">
-                    Passionate about crafting innovative solutions that leverage technology to drive positive change and contribute to the advancement of society.                </p>
+                <p className="text-foreground text-justify text-sm sm:text-sm font-thin mb-2 sm:mb-1">
+                    Passionate about crafting innovative solutions that leverage technology to drive positive change and contribute to the advancement of society.
+                </p>
+                <Link href="/Akaichi_Med_Aziz_CV.pdf" target="_blank" rel="noopener noreferrer">
+                    <ButtonA />
+                </Link>
             </div>
 
             <Image src={my_image} alt="Profile image" className="w-44 hidden rounded-full lg:block" />

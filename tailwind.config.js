@@ -83,9 +83,18 @@ module.exports = {
           to: {
             transform: 'translateY(calc(-100% - var(--gap)))'
           }
+        },
+        shimmer: {
+          from: {
+            "backgroundPosition": "0 0"
+          },
+          to: {
+            "backgroundPosition": "-200% 0"
+          }
         }
       },
       animation: {
+        shimmer: "shimmer 2s linear infinite",
         marquee: 'marquee var(--duration) infinite linear',
         'marquee-vertical': 'marquee-vertical var(--duration) linear infinite',
       }
