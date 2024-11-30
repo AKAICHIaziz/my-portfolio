@@ -20,7 +20,9 @@ export default function Home() {
 
       <Skills />
 
-      <Contact />
+      <div className="h-[90vh] flex items-start">
+        <Contact />
+      </div>
 
     </div>
 

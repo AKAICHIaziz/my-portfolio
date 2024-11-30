@@ -33,11 +33,11 @@ export default function LatestProjects() {
                             <p className="bg-accent/30 text-primary p-1 px-3 rounded-lg w-fit flex-1">Node</p>
                             <p className="bg-accent/30 text-primary p-1 px-3 rounded-lg w-fit flex-1">React</p>
                         </div>
-                        <Link href="/projects" className="flex justify-end">
+                        <Link href="/projects" className="flex justify-center sm:justify-end">
                             {/* <button className="bg-primary/10 text-foreground text-xs font-light sm:text-sm w-full rounded-md h-8 flex items-center justify-center sm:w-32">
                                 Read more
                             </button> */}
-                            <button className="transition-all duration-300 hover:scale-105 text-xs inline-flex h-7 sm:h-9 w-full sm:w-fit animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-light text-foreground focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+                            <button className="transition-all duration-300 hover:scale-105 text-xs inline-flex h-8 sm:h-9 w-fit animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-light text-foreground focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
                                 Read more
                             </button>
 
@@ -56,8 +56,8 @@ export default function LatestProjects() {
                             <p className="bg-accent/30 text-primary p-1 px-3 rounded-lg w-fit flex-1">MongoDB</p>
                             <p className="bg-accent/30 text-primary p-1 px-3 rounded-lg w-fit flex-1">JWT</p>
                         </div>
-                        <Link href="/projects" className="flex justify-end">
-                            <button className="transition-all duration-300 hover:scale-105 text-xs inline-flex h-7 sm:h-9 w-full sm:w-fit animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-light text-foreground focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+                        <Link href="/projects" className="flex justify-center sm:justify-end">
+                            <button className="transition-all duration-300 hover:scale-105 text-xs inline-flex h-8 sm:h-9 w-fit animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-light text-foreground focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
                                 Read more
                             </button>
                         </Link>
