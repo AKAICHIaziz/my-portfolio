@@ -12,6 +12,9 @@ const poppins = Poppins({
 export const metadata = {
   title: "Akaichi Aziz | Software Developer",
   description: "This is my portfolio website with latest updates.",
+  icons: {
+    icon: "/logo.png", 
+  },
 };
 
 

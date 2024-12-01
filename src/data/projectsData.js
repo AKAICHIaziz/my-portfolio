@@ -12,6 +12,12 @@ import python from "@/../public/python.svg";
 import scikit_learn from "@/../public/scikit-learn.svg";
 import matplotlib from "@/../public/matplotlib.svg";
 
+import colab from "@/../../public/projects_images/colab.png"
+
+
+import blog216 from "@/../../public/projects_images/blog216.png"
+import next from "@/../public/next.svg";
+import nextAuth from "@/../public/nextAuth.png";
 
 
 const projects = [
@@ -69,9 +75,9 @@ const projects = [
         ],
     },
     {
-        ProjectImage: projetML,
+        ProjectImage: colab,
         slug: "heart-disease-detection-7algo",
-        ProjectName: "Heart Disease Anomaly Detection Python Model",
+        ProjectName: "Heart Disease Anomaly Detection Python ML Model",
         ProjectType: "Machine Learning Model",
         ProjectDescription:
             `Developed a machine learning model to predict heart disease risk using key medical parameters. The model leverages advanced algorithms to analyze patient data and identify potential cardiac issues. Using Python libraries such as <b style="color: skyblue;">Pandas</b> for data preprocessing, <b style="color: green;">Scikit-learn</b> for model training, and <b style="color: gold;">Matplotlib</b> and <b style="color: chartreuse;">Seaborn</b> for data visualization, the model was built to provide accurate predictions.<br><br>
@@ -89,6 +95,23 @@ const projects = [
         ],
         pdfFile: "/ml_project.pdf",
     },
+    {
+        ProjectImage: blog216,
+        slug: "Blog216",
+        ProjectName: "Blog application",
+        ProjectType: "Web App",
+        ProjectDescription: `Blog216 is a blog app where ideas come alive and minds are inspired. Join our community and explore.`,
+        ProjectTechs: [
+            { techName: "Next JS", techImg: next },
+            { techName: "Next Auth", techImg: nextAuth },
+            { techName: "MongoDB", techImg: mongo },
+        ],
+        images: [
+            projetML,
+            projetML,
+        ],
+    },
 ];
 
 export default projects;
+n
