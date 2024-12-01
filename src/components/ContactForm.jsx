@@ -1,7 +1,7 @@
 
 export default function ContactForm() {
     return (
-        <div className="w-[90%] sm:w-[40%] h-fit rounded-lg bg-card/10 mb-1 sm:mb-20 ">
+        <div className="w-[90%] sm:w-[60%] h-fit rounded-lg  mb-1 sm:mb-20 ">
             <form action="" method="POST" className="flex flex-col items-end gap-2 p-2">
 
                 <input type="text" id="username" name="username" placeholder="Full name" className="w-full p-2 pl-5 border rounded-md bg-transparent text-sm focus:outline-none" />
