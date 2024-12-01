@@ -15,7 +15,7 @@ export default function Profile() {
                 <p className="text-foreground text-justify text-sm sm:text-sm font-thin mb-2 sm:mb-1">
                     Passionate about crafting innovative solutions that leverage technology to drive positive change and contribute to the advancement of society.
                 </p>
-                <Link href="/Akaichi_Med_Aziz_CV.pdf" target="_blank" rel="noopener noreferrer">
+                <Link href="/Akaichi_Med_Aziz_CV.pdf" target="_blank" rel="noopener noreferrer" className="w-fit">
                     <ButtonA />
                 </Link>
             </div>
