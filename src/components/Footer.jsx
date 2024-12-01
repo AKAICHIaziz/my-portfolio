@@ -3,25 +3,9 @@ import Image from "next/image"
 
 export default function Footer() {
     return (
-        <div className="bg-accent w-full h-52 mb-6 rounded-3xl">
-
-            {/* <div className="w-full h-[80%] p-5 flex items-start justify-between">
-
-                <Image src={logo} alt="logo" className="h-14 w-auto" />
-
-                <div className=" h-full w-[50%]">
-
-                </div>
-
-            </div>
-
-            <div className="w-full h-[20%] flex items-center justify-between px-5">
-
-                <div className="">&copy; 2024 Panda Production &trade;</div>
-
-                <div>Social links</div>
-
-            </div> */}
+        <div className="bg-accent/30 w-[95%] h-10 sm:h-20 mb-3 sm:mb-6 rounded sm:rounded-3xl flex items-center justify-between px-3 sm:px-20 mt-10 sm:mt-20 self-center">
+            <Image src={logo} alt="logo" className="h-3 sm:h-10 w-auto" />
+            <p className="font-light text-xs sm:text-sm">&copy;2024 Copyright. All rights reserved.</p>
         </div>
     )
 }

@@ -1,7 +1,7 @@
 
+import Carousel from "@/components/Carousel";
 import Footer from "@/components/Footer";
 import projects from "@/data/projectsData"
-import Image from "next/image";
 import Link from "next/link";
 
 export default async function ProjectPage({ params }) {
@@ -27,13 +27,24 @@ export default async function ProjectPage({ params }) {
                 </Link>
             </div>
 
-            <Image src={project.ProjectImage} alt={project.ProjectName} className="w-full sm:w-[50vw] rounded-2xl" />
+            {
+                project.images && (<Carousel images={project.images} />)
+            }
 
-            <h1 className="text-lg sm:text-2xl font-semibold text-center">{project.ProjectName}</h1>
+            <h1 className="text-lg sm:text-2xl font-medium text-center">{project.ProjectName}</h1>
 
-            <p className="text-gray-400 w-full sm:w-[50vw] text-sm sm:text-base text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis quidem ab molestiae dicta consequatur pariatur voluptate, inventore error sed nam dolorum quod illo possimus sunt animi minus quae recusandae sit?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium mollitia sequi, quam velit veniam temporibus ad facilis voluptatem ipsam saepe molestiae est magni voluptatibus vero, dolorem quis possimus harum! A. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis suscipit illo maxime modi a cupiditate magni accusantium quo, vero ratione et, eaque cumque quia doloremque recusandae aspernatur, magnam rerum necessitatibus.</p>
+            <p
+                className="text-gray-400 w-full sm:w-[50vw] text-sm sm:text-base text-justify font-light"
+                dangerouslySetInnerHTML={{ __html: project.ProjectDescription }}
+            />
 
-            <Footer />
+            {
+                project.pdfFile && (
+                    <embed src={project.pdfFile} className="w-full sm:w-[60%]" width="full" height="1000px" type="application/pdf" />
+                )
+            }
+
+
 
         </div>
     );

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import projet_tt from "../../public/projet_tt.png"
-import projetML from "../../public/projetML.png"
+import projet_tt from "../../public/projects_images/projet_tt.png"
+import projetML from "../../public/projects_images/projetML.png"
 import Link from "next/link";
 
 export default function LatestProjects() {
