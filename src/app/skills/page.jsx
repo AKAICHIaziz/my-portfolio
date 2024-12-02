@@ -34,21 +34,17 @@ export default function Skills() {
 
             <div className="relative flex flex-col items-center justify-center w-full h-fit">
                 <h1 className="font-light text-lg sm:text-3xl text-gray-400">Tools of My Trade</h1>
-                {/* <Sparkles
-                    density={1200}
-                    className="absolute inset-0 h-full w-full [mask-image:radial-gradient(50%_50%,white,transparent_85%)]"
-                /> */}
             </div>
 
 
             <div className="flex flex-col items-center w-[full] p-5 gap-2">
 
-                <div className="flex flex-col gap-1 w-full sm:w-full">
+                <div className="flex flex-col w-full sm:w-full">
                     <h1 className="font-semibold text-sm sm:text-lg text-foreground">Frontend</h1>
-                    <div className="grid grid-cols-4 sm:grid-cols-5 gap-4 p-4 w-full">
+                    <div className="grid grid-cols-4 sm:grid-cols-5 gap-4 px-4 py-2 w-full">
                         {
                             frontend_logos.map((logo, index) => (
-                                <div key={index} className="relative h-[3rem] w-[3rem] sm:h-[4rem] sm:w-[4rem] rounded-2xl border bg-card px-2 py-2 sm:px-3 sm:py-3  flex items-center justify-center">
+                                <div key={index} className="relative h-[3rem] w-[3rem] sm:h-[5rem] sm:w-[5rem] rounded-2xl border bg-card px-2 py-2 sm:px-3 sm:py-3  flex items-center justify-center">
                                     <Image src={logo} alt="tech" className="h-7 w-7 object-contain sm:w-16 sm:h-16" />
                                 </div>
                             ))
@@ -56,12 +52,12 @@ export default function Skills() {
                     </div>
                 </div>
 
-                <div className="flex flex-col gap-1 w-full sm:w-full">
+                <div className="flex flex-col w-full sm:w-full">
                     <h1 className="font-semibold text-sm sm:text-lg text-foreground">Backend</h1>
-                    <div className="grid grid-cols-4 sm:grid-cols-5 gap-4 p-4 w-full ">
+                    <div className="grid grid-cols-4 sm:grid-cols-5 gap-4 px-4 py-2 w-full ">
                         {
                             backend_logos.map((logo, index) => (
-                                <div key={index} className="relative h-[3rem] w-[3rem] sm:h-[4rem] sm:w-[4rem] rounded-2xl border bg-card px-2 py-2 sm:px-3 sm:py-3  flex items-center justify-center">
+                                <div key={index} className="relative h-[3rem] w-[3rem] sm:h-[5rem] sm:w-[5rem] rounded-2xl border bg-card px-2 py-2 sm:px-3 sm:py-3  flex items-center justify-center">
                                     <Image src={logo} alt="tech" className="h-7 w-7 object-contain sm:w-16 sm:h-16" />
                                 </div>
                             ))
@@ -69,12 +65,12 @@ export default function Skills() {
                     </div>
                 </div>
 
-                <div className="flex flex-col gap-1 w-full sm:w-full">
+                <div className="flex flex-col w-full sm:w-full">
                     <h1 className="font-semibold text-sm sm:text-lg text-foreground">Programming Languages</h1>
-                    <div className="grid grid-cols-4 sm:grid-cols-5 gap-4 p-4 w-full ">
+                    <div className="grid grid-cols-4 sm:grid-cols-5 gap-4 px-4 py-2 w-full ">
                         {
                             p_logos.map((logo, index) => (
-                                <div key={index} className="relative h-[3rem] w-[3rem] sm:h-[4rem] sm:w-[4rem] rounded-2xl border bg-card px-2 py-2 sm:px-3 sm:py-3  flex items-center justify-center">
+                                <div key={index} className="relative h-[3rem] w-[3rem] sm:h-[5rem] sm:w-[5rem] rounded-2xl border bg-card px-2 py-2 sm:px-3 sm:py-3  flex items-center justify-center">
                                     <Image src={logo} alt="tech" className="h-7 w-7 object-contain sm:w-16 sm:h-16" />
                                 </div>
                             ))
@@ -82,12 +78,12 @@ export default function Skills() {
                     </div>
                 </div>
 
-                <div className="flex flex-col gap-1 w-full sm:w-full">
+                <div className="flex flex-col w-full sm:w-full">
                     <h1 className="font-semibold text-sm sm:text-lg text-foreground">Design</h1>
-                    <div className="grid grid-cols-4 sm:grid-cols-5 gap-4 p-4 w-full ">
+                    <div className="grid grid-cols-4 sm:grid-cols-5 gap-4 px-4 py-2 w-full ">
                         {
                             design_logos.map((logo, index) => (
-                                <div key={index} className="relative h-[3rem] w-[3rem] sm:h-[4rem] sm:w-[4rem] rounded-2xl border bg-card px-2 py-2 sm:px-3 sm:py-3  flex items-center justify-center">
+                                <div key={index} className="relative h-[3rem] w-[3rem] sm:h-[5rem] sm:w-[5rem] rounded-2xl border bg-card px-2 py-2 sm:px-3 sm:py-3  flex items-center justify-center">
                                     <Image src={logo} alt="tech" className="h-7 w-7 object-contain sm:w-16 sm:h-16" />
                                 </div>
                             ))

@@ -6,6 +6,7 @@ import react from "@/../public/react.svg";
 import node from "@/../public/node.svg";
 import express from "@/../public/express.svg";
 import mongo from "@/../public/mongo.svg";
+import angular from "@/../public/angular.svg";
 
 import projetML from "@/../public/projects_images/projetML.png";
 import python from "@/../public/python.svg";
@@ -14,10 +15,12 @@ import matplotlib from "@/../public/matplotlib.svg";
 
 import colab from "@/../../public/projects_images/colab.png"
 
-
 import blog216 from "@/../../public/projects_images/blog216.png"
 import next from "@/../public/next.svg";
 import nextAuth from "@/../public/nextAuth.png";
+import mysql from "@/../public/mysql.png";
+
+import anime216 from "@/../../public/projects_images/anime216.png"
 
 
 const projects = [
@@ -25,6 +28,8 @@ const projects = [
         ProjectImage: projet_tt,
         slug: "intern-operations-manager",
         ProjectName: "TT Intern Operations Manager",
+        BackendLink: "https://github.com/AKAICHIaziz/MagasinTT-Backend",
+        FrontLink: "https://github.com/AKAICHIaziz/MagasinTT-Fronend",
         ProjectType: "Web App",
         ProjectDescription:
             `In response to the inefficiencies in material request management at Tunisie Telecom, we developed a custom application designed to optimize the internal processes. The existing system was manual, disorganized, and led to delays, which impacted the flow of work and employee productivity. This project aimed to create a more structured and automated solution that would streamline the process and ensure better tracking and management of materials.
@@ -54,6 +59,7 @@ const projects = [
         ProjectImage: projetML,
         slug: "heart-disease-detection",
         ProjectName: "Heart Disease Anomaly Detection",
+        ProjectLink: "https://github.com/AKAICHIaziz/Anomaly-Detection",
         ProjectType: "Machine Learning App",
         ProjectDescription:
             `Developed a machine learning model to predict heart disease risk using key medical parameters. The model leverages advanced algorithms to analyze patient data and identify potential cardiac issues. Using Python libraries such as <b style="color: skyblue;">Pandas</b> for data preprocessing, <b style="color: green;">Scikit-learn</b> for model training, and <b style="color: gold;">Matplotlib</b> and <b style="color: chartreuse;">Seaborn</b> for data visualization, the model was built to provide accurate predictions.<br><br>
@@ -79,6 +85,7 @@ const projects = [
         slug: "heart-disease-detection-7algo",
         ProjectName: "Heart Disease Anomaly Detection Python ML Model",
         ProjectType: "Machine Learning Model",
+        ProjectLink: "https://colab.research.google.com/drive/1fNcAz-Ys2tshZJ2sPALpnpvCZIzyBDEx",
         ProjectDescription:
             `Developed a machine learning model to predict heart disease risk using key medical parameters. The model leverages advanced algorithms to analyze patient data and identify potential cardiac issues. Using Python libraries such as <b style="color: skyblue;">Pandas</b> for data preprocessing, <b style="color: green;">Scikit-learn</b> for model training, and <b style="color: gold;">Matplotlib</b> and <b style="color: chartreuse;">Seaborn</b> for data visualization, the model was built to provide accurate predictions.<br><br>
             The key features of the project include:<br>
@@ -98,7 +105,9 @@ const projects = [
     {
         ProjectImage: blog216,
         slug: "Blog216",
-        ProjectName: "Blog application",
+        ProjectName: "Blog216",
+        ProjectLink: "https://github.com/AKAICHIaziz/blogo",
+        LivePreview: "blog216.vercel.app",
         ProjectType: "Web App",
         ProjectDescription: `Blog216 is a blog app where ideas come alive and minds are inspired. Join our community and explore.`,
         ProjectTechs: [
@@ -107,8 +116,42 @@ const projects = [
             { techName: "MongoDB", techImg: mongo },
         ],
         images: [
-            projetML,
-            projetML,
+            blog216
+        ],
+    },
+    {
+        ProjectImage: anime216,
+        slug: "anime216",
+        ProjectName: "Anime216",
+        ProjectLink: "https://github.com/AKAICHIaziz/Anime216",
+        LivePreview: "anime216.vercel.app",
+        ProjectType: "Web App",
+        ProjectDescription: `Blog216 is a blog app where ideas come alive and minds are inspired. Join our community and explore.`,
+        ProjectTechs: [
+            { techName: "Next JS", techImg: next },
+            { techName: "Next Auth", techImg: nextAuth },
+            { techName: "MongoDB", techImg: mongo },
+        ],
+        images: [
+            anime216,
+        ],
+    },
+    {
+        ProjectImage: anime216,
+        slug: "g-stock",
+        ProjectName: "Gym Stock App",
+        ProjectLink: "https://github.com/AKAICHIaziz/Gym-Stock-App",
+        LivePreview: "g-stock.vercel.app",
+        ProjectType: "Web App",
+        ProjectDescription: "lorem ipsum dolerit",
+        ProjectTechs: [
+            { techName: "Angular", techImg: angular },
+            { techName: "Node JS", techImg: node },
+            { techName: "Express", techImg: express },
+            { techName: "MySQL", techImg: mysql },
+        ],
+        images: [
+            
         ],
     },
 ];

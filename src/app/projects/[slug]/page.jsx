@@ -1,8 +1,9 @@
 
 import Carousel from "@/components/Carousel";
-import Footer from "@/components/Footer";
 import projects from "@/data/projectsData"
+import Image from "next/image";
 import Link from "next/link";
+import link from "@/../public/link.svg"
 
 export default async function ProjectPage({ params }) {
     const { slug } = await params
@@ -18,7 +19,7 @@ export default async function ProjectPage({ params }) {
     }
 
     return (
-        <div className="w-full h-full pt-20 flex flex-col items-center gap-4 px-5">
+        <div className="w-full h-full pt-20 flex flex-col items-center gap-3 px-5">
 
             <div className="w-full items-start pl-0 sm:pl-20">
                 <Link href="/projects" className="w-fit flex flex-row items-center gap-2 transform duration-300 hover:gap-3">
@@ -31,7 +32,35 @@ export default async function ProjectPage({ params }) {
                 project.images && (<Carousel images={project.images} />)
             }
 
-            <h1 className="text-lg sm:text-2xl font-medium text-center">{project.ProjectName}</h1>
+            <div className="w-[50vw] flex items-baseline justify-between">
+                <h1 className="text-lg sm:text-2xl font-medium">{project.ProjectName}</h1>
+                <p className="text-sm text-gray-400">{project.ProjectType}</p>
+            </div>
+
+            {
+                project.BackendLink && (
+                    <div className="w-[50vw] text-sm flex flex-col gap-2">
+                        <div className="flex gap-2">
+                            <Image src={link} alt="link" className="w-3" />
+                            <Link target="blank" className="text-green-400 transform duration-150 hover:text-green-700" href={project.BackendLink}>{project.BackendLink}</Link>
+                        </div><div className="flex gap-2">
+                            <Image src={link} alt="link" className="w-3" />
+                            <Link target="blank" className="text-green-400 transform duration-150 hover:text-green-700" href={project.FrontLink}>{project.FrontLink}</Link>
+                        </div>
+                    </div>
+                )
+            }
+
+            {
+                project.ProjectLink && (
+                    <div className="w-[50vw] text-sm flex flex-col gap-2">
+                        <div className="flex gap-2">
+                            <Image src={link} alt="link" className="w-3" />
+                            <Link target="blank" className="text-green-400 transform duration-150 hover:text-green-700" href={project.ProjectLink}>{project.ProjectLink}</Link>
+                        </div>
+                    </div>
+                )
+            }
 
             <p
                 className="text-gray-400 w-full sm:w-[50vw] text-sm sm:text-base text-justify font-light"
