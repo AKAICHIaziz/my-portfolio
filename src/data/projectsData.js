@@ -126,7 +126,7 @@ const projects = [
         ProjectLink: "https://github.com/AKAICHIaziz/Anime216",
         LivePreview: "anime216.vercel.app",
         ProjectType: "Web App",
-        ProjectDescription: `Blog216 is a blog app where ideas come alive and minds are inspired. Join our community and explore.`,
+        ProjectDescription: `Lorem ipsum<br>Lorem ipsum`,
         ProjectTechs: [
             { techName: "Next JS", techImg: next },
             { techName: "Next Auth", techImg: nextAuth },
@@ -136,24 +136,24 @@ const projects = [
             anime216,
         ],
     },
-    {
-        ProjectImage: anime216,
-        slug: "g-stock",
-        ProjectName: "Gym Stock App",
-        ProjectLink: "https://github.com/AKAICHIaziz/Gym-Stock-App",
-        LivePreview: "g-stock.vercel.app",
-        ProjectType: "Web App",
-        ProjectDescription: "lorem ipsum dolerit",
-        ProjectTechs: [
-            { techName: "Angular", techImg: angular },
-            { techName: "Node JS", techImg: node },
-            { techName: "Express", techImg: express },
-            { techName: "MySQL", techImg: mysql },
-        ],
-        images: [
+    // {
+    //     ProjectImage: anime216,
+    //     slug: "g-stock",
+    //     ProjectName: "Gym Stock App",
+    //     ProjectLink: "https://github.com/AKAICHIaziz/Gym-Stock-App",
+    //     LivePreview: "g-stock.vercel.app",
+    //     ProjectType: "Web App",
+    //     ProjectDescription: "lorem ipsum dolerit",
+    //     ProjectTechs: [
+    //         { techName: "Angular", techImg: angular },
+    //         { techName: "Node JS", techImg: node },
+    //         { techName: "Express", techImg: express },
+    //         { techName: "MySQL", techImg: mysql },
+    //     ],
+    //     images: [
             
-        ],
-    },
+    //     ],
+    // },
 ];
 
 export default projects;

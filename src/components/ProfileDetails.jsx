@@ -3,7 +3,7 @@ import my_image from "../../public/img2.jpg"
 
 export default function ProfileDetails() {
     return (
-        <div className="w-full flex flex-col items-center gap-5 sm:gap-0 p-4 sm:p-2">
+        <div className="w-full flex flex-col items-center gap-5 sm:gap-5 p-4 sm:p-2">
 
             <Image src={my_image} alt="Profile image" className="w-24 sm:w-40 rounded-full z-20"/>
 

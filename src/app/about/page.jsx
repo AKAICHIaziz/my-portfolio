@@ -1,7 +1,6 @@
 
 import ProfileDetails from "@/components/ProfileDetails";
 import Timeline from "@/components/Timeline";
-import { BackgroundBeams } from "@/components/ui/background-beams";
 
 export default function About() {
 
@@ -11,7 +10,7 @@ export default function About() {
             title: "Software Developer",
             society: "Industry X.0",
             date: "06/2024 - 07/2024",
-            description: "•	Integrated a report customization and generation module into the CIPA application using <b>Angular</b> and <b>Spring Boot</b>. Improved user experience through dynamic template customization and efficient backend processing for streamlined report generation. <br>•	Integrated a report customization and generation module into the CIPA application using Angular and Spring Boot. Improved user experience through dynamic template customization and efficient backend processing for streamlined report generation."
+            description: "•	Integrated a report customization and generation module into the CIPA application using <b>Angular</b> and <b>Spring Boot</b>. Improved user experience through dynamic template customization and efficient backend processing for streamlined report generation. <br>• Integrated a report customization and generation module into the CIPA application using Angular and Spring Boot. Improved user experience through dynamic template customization and efficient backend processing for streamlined report generation."
         },
         {
             experience: true,
@@ -33,32 +32,24 @@ export default function About() {
     ];
 
     return (
-        <div className="w-full h-screen">
+        <div className="w-full h-full flex flex-col items-center pt-14 sm:pt-24 bg-background gap-1 sm:gap-4">
 
-            {/* <div className="absolute z-10">
-                <BackgroundBeams /> 
-            </div> */}
+            <div className="w-full sm:w-9/12 h-fit">
+                <ProfileDetails />
+            </div>
 
-            <div className="w-full h-screen flex flex-col items-center pt-14 sm:pt-24 bg-background gap-1 sm:gap-4">
-
-                <div className="w-full sm:w-9/12 h-fit">
-                    <ProfileDetails />
+            <div className="w-full sm:w-9/12 h-fit p-2 sm:p-1">
+                <h1 className="font-semibold text-sm sm:text-lg text-foreground">Experience</h1>
+                <div className="p-4 pl-4 sm:pl-20">
+                    <Timeline items={experienceItems} />
                 </div>
+            </div>
 
-                <div className="w-full sm:w-9/12 h-fit p-2 sm:p-1">
-                    <h1 className="font-semibold text-sm sm:text-lg text-foreground">Experience</h1>
-                    <div className="p-4 pl-4 sm:pl-20">
-                        <Timeline items={experienceItems} />
-                    </div>
+            <div className="w-full sm:w-9/12 h-fit p-2 sm:p-1">
+                <h1 className="font-semibold text-sm sm:text-lg text-foreground">Education</h1>
+                <div className="p-4 pl-4 sm:pl-20">
+                    <Timeline items={educationItems} />
                 </div>
-
-                <div className="w-full sm:w-9/12 h-fit p-2 sm:p-1">
-                    <h1 className="font-semibold text-sm sm:text-lg text-foreground">Education</h1>
-                    <div className="p-4 pl-4 sm:pl-20">
-                        <Timeline items={educationItems} />
-                    </div>
-                </div>
-
             </div>
 
         </div>

@@ -33,7 +33,7 @@ export default function Skills() {
 
 
             <div className="relative flex flex-col items-center justify-center w-full h-fit">
-                <h1 className="font-light text-lg sm:text-3xl text-gray-400">Tools of My Trade</h1>
+                <h1 className="font-medium text-lg sm:text-3xl text-gray-400">Tools of My Trade</h1>
             </div>
 
 

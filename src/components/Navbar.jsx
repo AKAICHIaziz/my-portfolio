@@ -52,18 +52,18 @@ export default function NavBar() {
                     </li>
                     <li>
                         <Link
-                            href="/projects"
-                            className={isActive("/projects") ? "text-primary" : "text-foreground hover:text-primary"}
-                        >
-                            Projects
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
                             href="/about"
                             className={isActive("/about") ? "text-primary" : "text-foreground hover:text-primary"}
                         >
                             About
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            href="/projects"
+                            className={isActive("/projects") ? "text-primary" : "text-foreground hover:text-primary"}
+                        >
+                            Projects
                         </Link>
                     </li>
                     <li>
@@ -121,20 +121,20 @@ export default function NavBar() {
                     </li>
                     <li>
                         <Link
-                            href="/projects"
-                            onClick={toggleSidebar}
-                            className={isActive("/projects") ? "text-primary" : "text-foreground hover:text-primary"}
-                        >
-                            Projects
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
                             href="/about"
                             onClick={toggleSidebar}
                             className={isActive("/about") ? "text-primary" : "text-foreground hover:text-primary"}
                         >
                             About
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            href="/projects"
+                            onClick={toggleSidebar}
+                            className={isActive("/projects") ? "text-primary" : "text-foreground hover:text-primary"}
+                        >
+                            Projects
                         </Link>
                     </li>
                     <li>
