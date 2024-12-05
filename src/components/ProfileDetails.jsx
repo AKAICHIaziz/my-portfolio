@@ -1,11 +1,14 @@
 import Image from "next/image";
 import my_image from "../../public/img2.jpg"
+import { BackgroundBeams } from "./ui/background-beams";
 
 export default function ProfileDetails() {
     return (
         <div className="w-full flex flex-col items-center gap-5 sm:gap-0 p-5 sm:p-2">
 
-            <Image src={my_image} alt="Profile image" className="w-24 sm:w-36 rounded-full" />
+            <BackgroundBeams />
+
+            <Image src={my_image} alt="Profile image" className="w-24 sm:w-40 rounded-full z-20"/>
 
             <div className="flex flex-col gap-2 sm:gap-0">
                 <h1 className="font-semibold text-sm sm:text-lg text-foreground">Who am I ?</h1>

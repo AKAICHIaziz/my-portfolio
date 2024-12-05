@@ -18,7 +18,7 @@ export default function NavBar() {
 
     return (
         <>
-            <nav className="fixed z-20 pr-[7%] pl-8 bg-muted/20 border-b backdrop-blur-3xl w-full h-14 flex flex-row items-center justify-between sm:pr-[17%] ">
+            <nav className="fixed z-30 pr-[7%] pl-8 bg-muted/20 border-b backdrop-blur-3xl w-full h-14 flex flex-row items-center justify-between sm:pr-[17%] ">
                 <Image src={logo} alt="LOGO" className="w-20 sm:w-28" />
 
                 <button
