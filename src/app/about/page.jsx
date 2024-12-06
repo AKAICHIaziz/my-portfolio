@@ -32,9 +32,9 @@ export default function About() {
     ];
 
     return (
-        <div className="w-full h-full flex flex-col items-center pt-14 sm:pt-24 bg-background gap-1 sm:gap-4">
+        <div className="w-full h-full flex flex-col items-center pt-0 bg-background gap-1 sm:gap-4">
 
-            <div className="w-full sm:w-9/12 h-fit">
+            <div className="w-full sm:w-9/12 h-fit -top-10 relative">
                 <ProfileDetails />
             </div>
 
