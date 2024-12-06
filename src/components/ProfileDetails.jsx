@@ -8,7 +8,7 @@ export default function ProfileDetails() {
 
             <div className="flex flex-col items-center">
                 <Image src={banner} alt="Banner" className="w-full relative -bottom-5 sm:-bottom-24" />
-                <Image src={my_image} alt="Profile image" className="w-14 sm:w-40 rounded-full z-20 " />
+                <Image src={my_image} alt="Profile image" className="w-20 sm:w-40 rounded-full z-20 " />
             </div>
 
             <div className="flex flex-col gap-2 sm:gap-0">

@@ -2,9 +2,9 @@
 export default function ContactForm() {
     return (
         <div className="w-[90%] sm:w-[60%] h-fit rounded-lg  mb-1 sm:mb-20 ">
-            <form action="" method="POST" className="flex flex-col items-end gap-2 p-2">
+            <form action="https://usebasin.com/f/b753623399d2" method="POST" className="flex flex-col items-end gap-2 p-2">
 
-                <input type="text" id="username" name="username" placeholder="Full name" className="w-full p-2 pl-5 border rounded-md bg-transparent text-sm focus:outline-none" />
+                <input type="text" id="name" name="name" placeholder="Full name" className="w-full p-2 pl-5 border rounded-md bg-transparent text-sm focus:outline-none" />
 
                 <input type="email" id="email" name="email" placeholder="Email" className="w-full p-2 pl-5 border rounded-md bg-transparent focus:outline-none text-sm" />
 
