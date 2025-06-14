@@ -12,6 +12,9 @@ import projetML from "@/../public/projects_images/projetML.png";
 import python from "@/../public/python.svg";
 import scikit_learn from "@/../public/scikit-learn.svg";
 import matplotlib from "@/../public/matplotlib.svg";
+import springboot from "@/../public/spring-boot.png";
+import springboot2 from "@/../public/springboot.svg";
+import springauth from "@/../public/spring-auth.png";
 
 import colab from "@/../../public/projects_images/colab.png"
 
@@ -60,7 +63,7 @@ const projects = [
         slug: "heart-disease-detection",
         ProjectName: "Heart Disease Anomaly Detection",
         ProjectLink: "https://github.com/AKAICHIaziz/Anomaly-Detection",
-        ProjectType: "Machine Learning App",
+        ProjectType: "Machine Learning",
         ProjectDescription:
             `Developed a machine learning model to predict heart disease risk using key medical parameters. The model leverages advanced algorithms to analyze patient data and identify potential cardiac issues. Using Python libraries such as <b style="color: skyblue;">Pandas</b> for data preprocessing, <b style="color: green;">Scikit-learn</b> for model training, and <b style="color: gold;">Matplotlib</b> and <b style="color: chartreuse;">Seaborn</b> for data visualization, the model was built to provide accurate predictions.<br><br>
             The key features of the project include:<br>
@@ -84,7 +87,7 @@ const projects = [
         ProjectImage: colab,
         slug: "heart-disease-detection-7algo",
         ProjectName: "Heart Disease Anomaly Detection Python ML Model",
-        ProjectType: "Machine Learning Model",
+        ProjectType: "Machine Learning",
         ProjectLink: "https://colab.research.google.com/drive/1fNcAz-Ys2tshZJ2sPALpnpvCZIzyBDEx",
         ProjectDescription:
             `Developed a machine learning model to predict heart disease risk using key medical parameters. The model leverages advanced algorithms to analyze patient data and identify potential cardiac issues. Using Python libraries such as <b style="color: skyblue;">Pandas</b> for data preprocessing, <b style="color: green;">Scikit-learn</b> for model training, and <b style="color: gold;">Matplotlib</b> and <b style="color: chartreuse;">Seaborn</b> for data visualization, the model was built to provide accurate predictions.<br><br>
@@ -109,7 +112,43 @@ const projects = [
         ProjectLink: "https://github.com/AKAICHIaziz/blogo",
         LivePreview: "blog216.vercel.app",
         ProjectType: "Web App",
-        ProjectDescription: `Blog216 is a blog app where ideas come alive and minds are inspired. Join our community and explore.`,
+        ProjectDescription: ` <p>
+    <b style="color: deepskyblue;">Blog Web Application</b><br><br>
+    This is a blog web application built with <b style="color: skyblue;">Next.js 14</b> and 
+    <b style="color: chartreuse;">MongoDB</b>. It includes an admin panel for managing blog posts, 
+    categories, and user access. The frontend is optimized for users, offering a clean interface 
+    and a fully responsive design that works smoothly on both mobile and desktop devices.
+  </p>
+
+  <br>
+
+  <p><b style="color: white;">🔍 User Features:</b></p>
+  <ul style="line-height: 1.8;">
+    <li>Browse and read blog posts with ease.</li>
+    <li>Search and filter posts by <b>category</b> or <b>keyword</b>.</li>
+    <li>Enjoy a seamless experience on any device with a fully responsive layout.</li>
+  </ul>
+
+  <br>
+
+  <p><b style="color: white;">🛠️ Admin Features:</b></p>
+  <ul style="line-height: 1.8;">
+    <li>Create, edit, and delete blog posts from a centralized admin panel.</li>
+    <li>Manage blog categories dynamically.</li>
+    <li>View and manage users and roles <i>(if applicable)</i>.</li>
+  </ul>
+
+  <br>
+
+  <p><b style="color: white;">🧩 Technologies Used:</b></p>
+  <ul style="line-height: 1.8;">
+    <li><b style="color: skyblue;">Next.js 14</b> – React framework for building fast and scalable web apps.</li>
+    <li><b style="color: lightsteelblue;">TypeScript</b> – Ensures strong typing and developer efficiency.</li>
+    <li><b style="color: turquoise;">Tailwind CSS</b> – For utility-first, modern styling.</li>
+    <li><b style="color: chartreuse;">MongoDB</b> – NoSQL database for flexible data modeling.</li>
+    <li><b style="color: gold;">Mongoose</b> – ORM for MongoDB to simplify interactions with the database.</li>
+    <li><b style="color: coral;">NextAuth.js</b> – Secure authentication and authorization solution.</li>
+  </ul>`,
         ProjectTechs: [
             { techName: "Next JS", techImg: next },
             { techName: "Next Auth", techImg: nextAuth },
@@ -120,38 +159,113 @@ const projects = [
         ],
     },
     {
-        ProjectImage: anime216,
-        slug: "anime216",
-        ProjectName: "Anime216",
-        ProjectLink: "https://github.com/AKAICHIaziz/Anime216",
-        LivePreview: "anime216.vercel.app",
-        ProjectType: "Web App",
-        ProjectDescription: `Lorem ipsum<br>Lorem ipsum`,
+        ProjectImage: springauth,
+        slug: "auth",
+        ProjectName: "Secure Auth System",
+        ProjectLink: "https://github.com/AKAICHIaziz/auth-system-email-verification",
+        ProjectType: "Backend API",
+        ProjectDescription: `🚀 Authentication System with Spring Security, JWT, and Email Verification
+                            <p>This project is a comprehensive implementation of <strong>Spring Security</strong> and <strong>JSON Web Tokens (JWT)</strong> to provide robust and secure authentication. It includes features like user registration, account verification via email, and stateless API authentication with JWT.</p>
+                            <br>
+                            <h2>📋 Overview</h2>
+                            <p>This application showcases best practices for securing web applications using <strong>Spring Security</strong> and <strong>JWT</strong>. It provides users with seamless registration and login functionalities, secure endpoints, and email-based account verification.</p>
+<br>
+                            <h3>Key Functionalities:</h3>
+                            <ul>
+                                <li>📝 <strong>User Registration</strong>: Register new users and store them securely in the database.</li>
+                                <li>📧 <strong>Account Verification</strong>: Send verification codes via email for user validation.</li>
+                                <li>🔑 <strong>JWT Authentication</strong>: Generate and validate JWT tokens for stateless session management.</li>
+                                <li>🔒 <strong>Secure Endpoints</strong>: Protect API endpoints to ensure only authorized access.</li>
+                            </ul>
+<br>
+                            <h2>💡 Features</h2>
+                            <ul>
+                                <li><strong>User Authentication</strong>: Register and authenticate users with encrypted credentials.</li>
+                                <li><strong>Account Verification</strong>: Validate user accounts with verification codes sent via email.</li>
+                                <li><strong>JWT Integration</strong>: Securely generate, issue, and validate JSON Web Tokens.</li>
+                                <li><strong>Spring Security</strong>: Handle authentication and authorization with Spring's security framework.</li>
+                                <li><strong>Stateless API</strong>: Maintain a stateless backend using token-based authentication.</li>
+                            </ul>
+<br>
+                            <h2>⚙️ Technologies Used</h2>
+                            <ul>
+                                <li>🌐 <strong>Spring Boot</strong>: Framework for building Java-based applications.</li>
+                                <li>🔐 <strong>Spring Security</strong>: For authentication and authorization.</li>
+                                <li>🔑 <strong>JWT</strong> (JSON Web Tokens): Stateless authentication mechanism.</li>
+                                <li>💌 <strong>JavaMail</strong>: For sending email verification codes.</li>
+                                <li>💾 <strong>Spring Data JPA</strong>: Simplified database operations.</li>
+                                <li>🐘 <strong>PostgreSQL</strong>: Relational database management system.</li>
+                            </ul>
+<br>
+                            <h2>🛠️ How It Works</h2>
+                            <ol>
+                                <li><strong>User Registration</strong>:<br>
+                                Users provide their details (e.g., email, password) via the <code>/auth/signup</code> endpoint.<br>
+                                The system sends a verification code to the user's email.</li>
+                                <li><strong>Account Verification</strong>:<br>
+                                Users submit the verification code via the <code>/auth/verify</code> endpoint.<br>
+                                If valid, the account is marked as verified, enabling login.</li>
+                                <li><strong>User Login</strong>:<br>
+                                Users authenticate with their email and password at the <code>/auth/login</code> endpoint.<br>
+                                On successful login, a JWT token is generated and returned to the user.</li>
+                                <li><strong>Protected Endpoints</strong>:<br>
+                                API endpoints are secured, accessible only with a valid JWT token.</li>
+                            </ol>
+<br>
+                            <h2>🚀 Endpoints</h2>
+                            <table border="1" cellpadding="5" cellspacing="0">
+                                <thead>
+                                <tr>
+                                    <th>HTTP Method</th>
+                                    <th>Endpoint</th>
+                                    <th>Description</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr><td>POST</td><td><code>/auth/signup</code></td><td>Register a new user</td></tr>
+                                <tr><td>POST</td><td><code>/auth/verify</code></td><td>Verify user account with a code</td></tr>
+                                <tr><td>POST</td><td><code>/auth/login</code></td><td>Authenticate user and generate JWT</td></tr>
+                                <tr><td>POST</td><td><code>/auth/resend</code></td><td>Resend verification code to email</td></tr>
+                                <tr><td>GET</td><td><code>/users/me</code></td><td>A test for allowed route after login</td></tr>
+                                </tbody>
+                            </table>
+<br>
+                            <h2>🛡️ Security Highlights</h2>
+                            <ul>
+                                <li><strong>Password Encryption</strong>: User passwords are securely hashed and stored.</li>
+                                <li><strong>JWT Token</strong>: Ensures stateless authentication and user session integrity.</li>
+                                <li><strong>Spring Security</strong>: Protects against unauthorized access.</li>
+                            </ul>
+<br>
+                            <h2>🧩 Tech Stack</h2>
+                            <ul>
+                                <li><strong>Java 22</strong>: Compatible JDK for building and running the application.</li>
+                                <li><strong>Spring Boot 3.3.1</strong>: Framework for building Java-based applications.</li>
+                                <li><strong>Spring Security</strong>: For authentication and authorization.</li>
+                                <li><strong>JWT</strong>: Stateless authentication mechanism.</li>
+                                <li><strong>PostgreSQL</strong>: Relational database for storing user data.</li>
+                                <li><strong>JavaMail</strong>: Configured for sending email verification codes.</li>
+                                <li><strong>Gradle</strong>: Build automation tool used for project management.</li>
+                            </ul>`,
         ProjectTechs: [
-            { techName: "Next JS", techImg: next },
-            { techName: "Next Auth", techImg: nextAuth },
-            { techName: "MongoDB", techImg: mongo },
-        ],
-        images: [
-            anime216,
+            { techName: "Spring Boot", techImg: springboot2 },
         ],
     },
     // {
     //     ProjectImage: anime216,
-    //     slug: "g-stock",
-    //     ProjectName: "Gym Stock App",
-    //     ProjectLink: "https://github.com/AKAICHIaziz/Gym-Stock-App",
-    //     LivePreview: "g-stock.vercel.app",
+    //     slug: "anime216",
+    //     ProjectName: "Anime216",
+    //     ProjectLink: "https://github.com/AKAICHIaziz/Anime216",
+    //     LivePreview: "anime216.vercel.app",
     //     ProjectType: "Web App",
-    //     ProjectDescription: "lorem ipsum dolerit",
+    //     ProjectDescription: `Lorem ipsum<br>Lorem ipsum`,
     //     ProjectTechs: [
-    //         { techName: "Angular", techImg: angular },
-    //         { techName: "Node JS", techImg: node },
-    //         { techName: "Express", techImg: express },
-    //         { techName: "MySQL", techImg: mysql },
+    //         { techName: "Next JS", techImg: next },
+    //         { techName: "Next Auth", techImg: nextAuth },
+    //         { techName: "MongoDB", techImg: mongo },
     //     ],
     //     images: [
-            
+    //         anime216,
     //     ],
     // },
 ];

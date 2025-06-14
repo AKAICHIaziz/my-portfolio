@@ -9,8 +9,8 @@ export default function About() {
             experience: true,
             title: "Software Developer",
             society: "Industry X.0",
-            date: "06/2024 - 07/2024",
-            description: "•	Integrated a report customization and generation module into the CIPA application using <b>Angular</b> and <b>Spring Boot</b>. Improved user experience through dynamic template customization and efficient backend processing for streamlined report generation. <br>• Integrated a report customization and generation module into the CIPA application using Angular and Spring Boot. Improved user experience through dynamic template customization and efficient backend processing for streamlined report generation."
+            date: "02/2025 - Present",
+            description: "<b>Development of an Audit Trail and Data-Driven Methodology Enhancement Solution</b> <br>• Integrated an account recovery system to enhance user experience.<br>• Implemented a comprehensive error tracking module enabling proactive identification of anomalies and prevention of system outages.<br>• Implemented a robust audit trail mechanism to ensure detailed logging and traceability of user modifications.<br>•  Integrated generative AI to assist in root cause analysis and corrective decision-making.<br>• Work performed using the Scrum methodology, with planning and monitoring via Jira."
         },
         {
             experience: true,

@@ -1,7 +1,7 @@
 import ProjectCard from "@/components/ProjectCard"
 import Link from "next/link"
 import projects from "@/data/projectsData"
-import Footer from "@/components/Footer";
+
 
 export default function Projects() {
     return (

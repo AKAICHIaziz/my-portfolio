@@ -12,13 +12,13 @@ export default function ProjectCard({
 
     return (
         <div className="w-full sm:w-[30vw] h-fit p-3 rounded-xl bg-card flex flex-col gap-4 cursor-pointer transform transition-transform duration-300 hover:scale-105">
-            <Image src={ProjectImage} alt="project image" className="rounded-xl" />
+            <Image src={ProjectImage} alt="project image" className="rounded-xl h-[220px] w-auto" />
 
             <div className="w-full h-full flex flex-col gap-3">
 
-                <div className="w-full flex justify-between items-center h-12">
+                <div className="w-full flex gap-2 justify-between items-start h-12">
                     <h1 className="text-sm sm:text-base">{ProjectName}</h1>
-                    <p className="text-xs text-gray-400">{ProjectType}</p>
+                    <p className="text-xs text-gray-400 whitespace-nowrap">{ProjectType}</p>
                 </div>
 
                 <div className="text-sm font-light text-gray-400 text-justify">

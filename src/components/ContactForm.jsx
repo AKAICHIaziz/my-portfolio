@@ -18,7 +18,7 @@ export default function ContactForm() {
                     rows="4"
                 />
 
-                <input type="submit" value="Submit" className="bg-primary/10 text-primary text-sm font-medium w-full mt-1 rounded-md h-7 sm:h-9 flex items-center justify-center sm:w-32 cursor-pointer" />
+                <input type="submit" value="Submit" className="bg-primary/10 text-primary text-sm font-medium w-full mt-1 rounded-md h-7 sm:h-9 flex items-center justify-center sm:w-32 cursor-pointer hover:bg-black hover:text-white transition-colors duration-50" />
 
             </form>
         </div>

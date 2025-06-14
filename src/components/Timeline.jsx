@@ -19,7 +19,7 @@ export default function Timeline({ items }) {
                         </div>
 
                         <div className="pl-7 sm:pl-8 flex items-center gap-5">
-                            <span className="text-sm text-[#6522a4]">{item.society}</span>
+                            <span className="text-sm font-semibold text-[#6522a4]">{item.society}</span>
                             <span className="text-xs font-light">{item.date}</span>
                         </div>
 

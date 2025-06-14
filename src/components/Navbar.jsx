@@ -74,14 +74,14 @@ export default function NavBar() {
                             Skills
                         </Link>
                     </li>
-                    <li>
+                    {/*<li>
                         <Link
                             href="/contact"
                             className={isActive("/contact") ? "text-primary" : "text-foreground hover:text-primary"}
                         >
                             Contact
                         </Link>
-                    </li>
+                    </li>*/}
                 </ul>
             </nav>
 
@@ -146,7 +146,7 @@ export default function NavBar() {
                             Skills
                         </Link>
                     </li>
-                    <li>
+                    {/*<li>
                         <Link
                             href="/contact"
                             onClick={toggleSidebar}
@@ -154,7 +154,7 @@ export default function NavBar() {
                         >
                             Contact
                         </Link>
-                    </li>
+                    </li>*/}
                 </ul>
             </div>
 
