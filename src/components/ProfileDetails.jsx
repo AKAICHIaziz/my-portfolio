@@ -1,5 +1,5 @@
 import Image from "next/image";
-import my_image from "../../public/img2.jpg"
+import my_image from "../../public/img2.png"
 import banner from "../../public/banner.png"
 
 export default function ProfileDetails() {

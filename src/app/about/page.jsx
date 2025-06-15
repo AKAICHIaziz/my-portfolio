@@ -17,7 +17,7 @@ export default function About() {
             title: "Software Developer",
             society: "Tunisie Telecom",
             date: "07/2024 - 09/2024",
-            description: "•	Developed an internal operations management web application with <b>React</b>, <b>Node</b>, <b>Express</b>, and <b>MongoDB</b>.<br>• Enabled streamlined product request submission, stock management, product tracking, and inventory management."
+            description: "•	Developed an internal operations management web application with <b>React</b>, <b>Node</b>, <b>Express</b>, and <b>MongoDB</b>.<br>• Implemented a streamlined workflow for product request submission, stock and inventory management, and product tracking.<br>• Implemeted admin dashboard for monitoring and managing product requests.<br>• Developed a user-friendly interface for employees to submit product requests and track their status.<br>• Integrated a real-time messaging system using WebSocket to enable seamless communication."
         }
     ];
 
