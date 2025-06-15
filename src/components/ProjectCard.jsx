@@ -12,7 +12,7 @@ export default function ProjectCard({
 
     return (
         <div className="w-full sm:w-[30vw] h-fit p-3 rounded-xl bg-card flex flex-col gap-4 cursor-pointer transform transition-transform duration-300 hover:scale-105">
-            <Image src={ProjectImage} alt="project image" className="rounded-xl h-[220px] w-auto" />
+            <Image src={ProjectImage} alt="project image" className="rounded-xl" />
 
             <div className="w-full h-full flex flex-col gap-3">
 
