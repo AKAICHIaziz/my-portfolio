@@ -5,7 +5,7 @@ import education from "@/../public/education.svg"
 export default function Timeline({ items }) {
     return (
 
-        <ol className="flex flex-col gap-3 border-l-2 border-foreground ">
+        <ol className="flex flex-col gap-3 border-l-2 border-foreground "> 
             {
                 items.map((item, index) => (
                     <li key={index} className="flex flex-col">
